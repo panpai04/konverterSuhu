@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Converter Suhu</title>
+</head>
+<body>
+  <h1>Konversi Suhu</h1>
+  
+  <form action="/hitung-suhu" method="post">
+    <label for="suhu">Masukkan suhu:</label>
+    <input type="number" id="suhu" name="suhu">
+    <label for="jenis">Pilih Konversi Suhu :</label>
+    <select id="jenis" name="jenis">
+      <option value="cToF">Celcius ke Fahrenheit</option>
+      <option value="cToR">Celcius ke Reamur</option>
+      <option value="fToC">Fahrenheit ke Celcius</option>
+      <option value="fToR">Fahrenheit ke Reamur</option>
+      <option value="rToC">Reamur ke Celcius</option>
+      <option value="rToF">Reamur ke Fahrenheit</option>
+    </select>
+    <button type="submit">Hitung</button>
+  </form>
+  
+ 
+</body>
+</html>
